@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { INGREDIENTS_SLICE_NAME } from './sliceNames';
+import { INGREDIENTS_SLICE_NAME } from '../sliceNames';
 import { RequestStatus, TIngredient } from '@utils-types';
 import { getIngredients } from '@thunks';
 

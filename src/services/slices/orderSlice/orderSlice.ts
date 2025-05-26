@@ -1,5 +1,5 @@
 import { getOrderByNumber, getOrders, orderBurger } from '@thunks';
-import { ORDER_SLICE_NAME } from './sliceNames';
+import { ORDER_SLICE_NAME } from '../sliceNames';
 import { createSlice } from '@reduxjs/toolkit';
 import { RequestStatus, TOrder, TOrdersData } from '@utils-types';
 

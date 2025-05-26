@@ -1,5 +1,5 @@
 import { getFeed } from '@thunks';
-import { FEED_SLICE_NAME } from './sliceNames';
+import { FEED_SLICE_NAME } from '../sliceNames';
 import { createSlice } from '@reduxjs/toolkit';
 import { RequestStatus, TOrdersData } from '@utils-types';
 
